@@ -10,7 +10,7 @@ body{
 .container-flexible{
     display:flex;
     margin-left:5%;
-margin-top:5%;
+    margin-top: 5%;
 }
 .half-width{
 width: 50%;
@@ -31,10 +31,30 @@ width: 50%;
     padding:11px 40px;
     border-radius: 20px;
     font-weight: 900;
-    margin-top:5%%;
+    
 }
 .background-image{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
-
+}
+.recipie-area h2,p{
+text-align: center;
+}
+.recipie-item {
+    width:20%;
+    margin-left: 5%;
+    padding-left:20px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px grey;
+}
+.recipie-item img{
+width:80%;
+padding-top: 25px;
+padding-left: 20px;
+}
+footer{
+background-color:darkred;
+margin:100px 40px;
+text-align: center;
+padding:10px
 }
