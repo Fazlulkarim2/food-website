@@ -1,29 +1,40 @@
 body{
     font-family: 'Poppins', sans-serif;
-    
 }
 .half-width h1{
-    font-size: 50px;
+    font-size:70px;
+}
+.aqua-color{
+    color: aqua;
 }
 .container-flexible{
     display:flex;
+    margin-left:5%;
+margin-top:5%;
 }
 .half-width{
-    width:50%;
-    margin-left:5%;
-    margin-top:10px ;
+width: 50%;
 }
-.half-width img{
-    width:80%;
-
+.second-image{
+    height:30%;
+    padding-top:5%;
+    padding-left: 20%;
+}
+.text-decoration{
+    padding-right:30%;
+    padding-top:2%;
 }
 .link-button{
     text-decoration: none;
-    background-image:linear-gradient(rgb(7, 34, 124),rgb(16, 78, 170));
+    background-image:linear-gradient(aqua,deepskyblue);
     color:aliceblue;
     padding:11px 40px;
     border-radius: 20px;
     font-weight: 900;
+    margin-top:5%%;
 }
+.background-image{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
 
-
+}
